@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <title></title>
+    </head>
+    <body>
+        <form method="post" action="registration.php">            
+            帳號：<input type="text" name="id"><br>
+            性別：<input type="radio" name="gender" value="M">男
+                 <input type="radio" name="gender" value="F">女<br>
+            興趣：<input type="checkbox" name="interest" value="1">騎車
+                  <input type="checkbox" name="interest" value="2">唱歌
+                  <input type="checkbox" name="interest" value="movue" checked>看電影<br>
+          居住地：<select name="county">
+                    <option value="1">新竹</option>   
+                    <option value="2">桃園</option> 
+                    <option value="3">苗栗</option>      
+                 </select><br>
+           自傳：<br>
+                <textarea name="1" rows="5" cols="40"></textarea><br>
+                <input type="submit" value="註冊">
+                <input type="reset" value="清除">
+        </form>
+    </body>
+</html>
